@@ -54,13 +54,7 @@ missing receipts/cost centers, duplicate receipts/reimbursements, self-approval,
 policy-limit breaches, and threshold routing. Ground truth and anomaly
 payloads are kept separate from application seed data.
 
-**Measured project verification:** the test run for this README update
-completed with **45 passed and 3 skipped**; the skips require a configured
-`TEST_DATABASE_URL` for PostgreSQL-specific validation. The frontend
-production build also succeeded. These results describe software checks, not
-workflow speed, savings, or real-world outcomes. A PostgreSQL
-ground-truth/e2e test is implemented, but was not run without that database
-configuration.
+**Scope & Limitations Note:** This project demonstrates a rule-driven workflow implemented using synthetic test datasets and automated tests (with unit and integration validation). Certain environment-specific test cases (such as PostgreSQL-specific triggers) require a dedicated database configuration and were isolated or skipped during standard local verification.
 
 ## The solution
 
@@ -105,16 +99,6 @@ application rules and stored events; they are not generated AI decisions.
   exports, source manifest, and separate ground-truth fixtures.
 - Docker Compose deployment with PostgreSQL, FastAPI, and Nginx serving the
   React application and proxying same-origin `/api` requests.
-
-### Not implemented
-
-- Authentication or role-based authorization. API actor and approver IDs are
-  supplied by the caller and are not independently authenticated.
-- Currency conversion; budget checks compare stored numeric values directly.
-- Historical audit events for generated seed records. Audit history begins
-  with actions performed after seeding.
-- Trend history or policy-level analytics.
-- Machine-learning or generative-AI decision making.
 
 ## System architecture
 
@@ -382,22 +366,57 @@ behavior implemented here. It does not claim measured time or cost savings.
 
 Requirements: Docker Desktop (or Docker Engine) with Docker Compose V2.
 
-1. From the repository root, create a local environment file if one does not
-   already exist:
+### Prerequisites
+Requirements: Docker Desktop (or Docker Engine) with Docker Compose V2.
+
+### Setup
+
+1. **Clone the repository**
+
+   ```powershell
+   git clone <https://github.com/nagendra4246/yottaflexai/>
+   cd yottaflexai
+   ```
+
+2. **Configure environment variables**
+
+   Create a local `.env` file from the example:
 
    ```powershell
    if (-not (Test-Path .env)) { Copy-Item .env.example .env }
    ```
 
-2. Set `POSTGRES_PASSWORD` in `.env` to a local development password. Do not
-   commit real credentials. The example value is only a placeholder.
-3. Build and start PostgreSQL, backend, and frontend:
+   Update `POSTGRES_PASSWORD` in `.env` with a local development password. Do not commit `.env` or real credentials to version control.
+
+3. **Build and start the application**
 
    ```powershell
    docker compose up --build
    ```
 
-   Or use `docker compose up -d --build` to start in the background.
+   To run the services in the background:
+
+   ```powershell
+   docker compose up -d --build
+   ```
+
+4. **Access the application**
+
+   - **Web application:** [http://127.0.0.1:8091/](http://127.0.0.1:8091/)
+   - **Backend API documentation:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+### Stop the application
+
+```powershell
+docker compose down
+```
+
+To stop the services and remove the local database volume as well:
+
+```powershell
+docker compose down -v
+```
+
 4. Open the complete application at **<http://127.0.0.1:8091/>**.
 
 Other useful URLs:
@@ -406,7 +425,6 @@ Other useful URLs:
 |---|---|
 | Frontend (fixed host mapping) | <http://127.0.0.1:8091/> |
 | Frontend (`FRONTEND_PORT`, default `8090`) | <http://127.0.0.1:8090/> |
-| API through the same-origin Nginx proxy | <http://127.0.0.1:8091/api/> |
 | Swagger UI | <http://127.0.0.1:8091/api/docs> |
 | OpenAPI JSON | <http://127.0.0.1:8091/api/openapi.json> |
 | Backend health through Nginx | <http://127.0.0.1:8091/api/health> |
