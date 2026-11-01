@@ -1,0 +1,7 @@
+policy_id,policy_name,annual_entitlement,carry_over_limit,accrual_rate,country_code,effective_from,effective_to
+LP-001,USA Annual Leave 1,30,10,2.500,USA,2020-01-01,
+LP-002,UK Annual Leave 2,30,10,2.500,UK,2020-01-01,
+LP-003,CAN Annual Leave 3,30,10,2.500,CAN,2020-01-01,
+LP-004,GER Annual Leave 4,30,10,2.500,GER,2020-01-01,
+LP-005,IND Annual Leave 5,30,10,2.500,IND,2020-01-01,
+LP-006,USA Annual Leave 6,30,10,2.500,USA,2020-01-01,

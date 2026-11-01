@@ -1,0 +1,9 @@
+case_id,case_type,related_entity_ids,input_data,expected_code
+CASE-SPLIT-CLAIM,split_claim,"[""EXP-2026-000004"", ""EXP-2026-000005""]","{""combined_amount"": ""550.00"", ""same_employee"": ""EMP-000010"", ""threshold"": ""500.00""}",POTENTIAL_SPLIT_CLAIM
+CASE-MISSING-COST-CENTER,missing_cost_center,[],"{""cost_center_id"": ""CC-MISSING"", ""employee_id"": ""EMP-000010""}",COST_CENTER_NOT_FOUND
+CASE-DUPLICATE-RECEIPT,duplicate_receipt,"[""EXPL-EXP-2026-000001-01""]","{""receipt_hash"": ""sha256-20261022-000001-01""}",DUPLICATE_RECEIPT
+CASE-DUPLICATE-REIMBURSEMENT,duplicate_reimbursement,"[""EXP-2026-000801""]","{""amount"": ""380.33"", ""claim_id"": ""EXP-2026-000801""}",DUPLICATE_REIMBURSEMENT
+CASE-EXPIRED-POLICY,expired_policy,"[""EP-EXP""]","{""expense_date"": ""2026-01-01"", ""policy_id"": ""EP-EXP""}",EXPENSE_POLICY_EXPIRED
+CASE-PARTIAL-REJECTION,partial_approval_then_rejection,"[""EXP-2026-000006""]","{""approved_steps"": 1, ""rejected_step"": 2}",PARTIAL_APPROVAL_THEN_REJECTION
+CASE-MISSING-RECEIPT,missing_receipt,[],"{""cost_center_id"": ""CC-001"", ""currency"": ""USD"", ""employee_id"": ""EMP-000002"", ""lines"": [{""amount"": ""25.00"", ""description"": ""Receipt-required taxi"", ""expense_date"": ""2026-01-05"", ""policy_id"": ""EP-001"", ""receipt_hash"": null, ""receipt_url"": null}], ""submission_date"": ""2026-01-05""}",RECEIPT_REQUIRED
+CASE-POLICY-LIMIT-BREACH,policy_limit_breach,"[""EP-002""]","{""cost_center_id"": ""CC-001"", ""currency"": ""USD"", ""employee_id"": ""EMP-000002"", ""lines"": [{""amount"": ""500.01"", ""description"": ""Over-limit meal"", ""expense_date"": ""2026-01-05"", ""policy_id"": ""EP-002"", ""receipt_hash"": ""anomaly-policy-limit-breach"", ""receipt_url"": ""https://receipts.example.test/anomaly-policy-limit-breach""}], ""submission_date"": ""2026-01-05""}",POLICY_LIMIT_EXCEEDED

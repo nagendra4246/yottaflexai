@@ -1,0 +1,7 @@
+cost_center_id,name,budget,department
+CC-001,Engineering Center,894291,Engineering
+CC-002,Sales Center,461936,Sales
+CC-003,HR Center,818063,HR
+CC-004,Marketing Center,923479,Marketing
+CC-005,Finance Center,140416,Finance
+CC-006,Operations Center,535829,Operations

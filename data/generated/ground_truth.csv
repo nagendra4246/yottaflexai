@@ -1,0 +1,18 @@
+entity_id,issue_type,label
+EXP-2026-000002,Above Approval Threshold,Edge Case
+CASE-DUPLICATE-RECEIPT,Duplicate Receipt Hash,Anomaly
+CASE-DUPLICATE-REIMBURSEMENT,Duplicate Reimbursement,Anomaly
+EXP-2026-000001,Exact Approval Threshold,Edge Case
+EXPL-EXP-2026-000003-01,Expense Outside Employment Dates,Anomaly
+CASE-POLICY-LIMIT-BREACH,Expense Policy Limit Breach,Anomaly
+CASE-EXPIRED-POLICY,Expired Policy,Edge Case
+LVE-2026-000004,Holiday Leave,Edge Case
+CASE-MISSING-COST-CENTER,Missing Cost Center,Anomaly
+CASE-MISSING-RECEIPT,Missing Receipt,Anomaly
+LB-000249,Negative Leave Balance,Anomaly
+EMP-000001,No Manager - Valid Top Level,Edge Case
+LVE-2026-000002,Overlapping Approved Leave,Anomaly
+EXP-2026-000006,Partial Approval Then Rejection,Edge Case
+APR-EXP-2026-000001-01,Requester Self Approval,Anomaly
+EXP-2026-000004,Split Claims,Anomaly
+LVE-2026-000003,Weekend Leave,Edge Case

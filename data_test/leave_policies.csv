@@ -1,0 +1,7 @@
+policy_id,policy_name,annual_entitlement,carry_over_limit,accrual_rate,country_code
+LP-001,Policy 1,18,8,1.61,GER
+LP-002,Policy 2,16,9,1.46,IND
+LP-003,Policy 3,28,7,1.32,IND
+LP-004,Policy 4,16,8,2.2,USA
+LP-005,Policy 5,28,7,1.43,GER
+LP-006,Policy 6,27,8,2.46,UK

@@ -1,0 +1,86 @@
+{
+  "anomaly_case_rows": 8,
+  "generator_version": 2,
+  "ground_truth_rows": 17,
+  "row_counts": {
+    "approval_rules": 4,
+    "approval_steps": 1803,
+    "cost_centers": 5,
+    "employees": 400,
+    "expense_claims": 1000,
+    "expense_lines": 5415,
+    "expense_policies": 6,
+    "leave_balances": 400,
+    "leave_policies": 6,
+    "leave_requests": 800,
+    "public_holidays": 5,
+    "reimbursements": 200
+  },
+  "seed": 20261022,
+  "sha256": {
+    "anomaly_cases.csv": "1da40860c2526a33450b1e7b6b0fc41cb6df19cd73ab67ac2d390b9929365f73",
+    "approval_rules.csv": "49fea99135ad24e8a5516ea06d4a0d08e3aa46b1e7e5300637ca9564faa60fda",
+    "approval_steps.csv": "77022dfbc7ef2553f87cfdfd3edcc5453ebbf439490eb090c402526005691fef",
+    "cost_centers.csv": "2c1c1d8563b2386748d4bd4d01736b7274623c925ea454973b3ad1692dc68de4",
+    "employees.csv": "f5f9424e9744731329dcc51ccf981b280e8f83990787c9dc4981261a5ac372c8",
+    "expense_claims.csv": "553152e4b1b7e48219239e79e6fb4042206ffdb724b85535bce9b5e5920f3328",
+    "expense_lines.csv": "e7750857138868d11b5dd4220ef950515207880b55639a3e4fb1df1062df1d17",
+    "expense_policies.csv": "197d1bc287ed27150da5aeae3882365a309d78c9aab8b35e9b625b6ccafc7e21",
+    "ground_truth.csv": "30d5d0015a6d9343b038b2848f593bf98f60c67fb57a7dcd62bc7ff8bd909968",
+    "ground_truth.json": "19a9296aa595d3e8c32f9283585c457017892454df879a1843c7b3d8457a8cce",
+    "leave_balances.csv": "ece91539e7722e93a3463400c345b73c37b47bc60988a96f130eb3fe5df098c1",
+    "leave_policies.csv": "5cecc7fcb832a702882fec139a66272e7ac225d73528935a293aec62d4a18db4",
+    "leave_requests.csv": "344fc99d285b32ad0186e5505f731fc9ce2a74ffe0b29263cb7bbc0d3d61ecce",
+    "public_holidays.csv": "558c88c46021354cd94f4a3042448aee049d3f8b5073bd0a720da095d6648a93",
+    "reimbursements.csv": "90870b48ef074399f54da6b6b47c82c107baed326a4a7a6cf2298c10ca9a11d8",
+    "seed_data.json": "b7dcc1da975cfa03d3f92385520670e2ea64bbb96662343224bc5946602bf647",
+    "seed_data.sql": "2c42c98a8132ae8bfcf4b77fec056fe50925944668fb579c623c6d62e1fe4693",
+    "source_manifest.json": "e03407d148ed348a28c6fb90f473b256cf6cb2497c3643ffe618c5406a274858",
+    "validation_summary.json": "43f996b6ba06ecdf9aba3342b421b9e0942fc197e5bfa61c8b66352d527da5c0"
+  },
+  "source_manifest": {
+    "attribution": null,
+    "config": {
+      "employees": 400,
+      "expense_claims": 1000,
+      "expense_line_range": [
+        1,
+        10
+      ],
+      "leave_policies": 6,
+      "leave_requests": 800,
+      "year": 2026
+    },
+    "fields_discarded": [],
+    "generator": "generator/generator.py",
+    "generator_version": 2,
+    "license": "Not applicable; generated synthetic data",
+    "provenance": "synthetic",
+    "retrieval_date": null,
+    "seed": 20261022,
+    "source": null,
+    "transformations": [
+      "Deterministic generation from the configured seed and generator rules"
+    ]
+  },
+  "validation_summary": {
+    "anomaly_case_rows": 8,
+    "ground_truth_rows": 17,
+    "status": "passed",
+    "tables": {
+      "approval_rules": 4,
+      "approval_steps": 1803,
+      "cost_centers": 5,
+      "employees": 400,
+      "expense_claims": 1000,
+      "expense_lines": 5415,
+      "expense_policies": 6,
+      "leave_balances": 400,
+      "leave_policies": 6,
+      "leave_requests": 800,
+      "public_holidays": 5,
+      "reimbursements": 200
+    },
+    "unlabelled_overlaps": 0
+  }
+}

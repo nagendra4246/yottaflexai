@@ -1,0 +1,7 @@
+policy_id,policy_name,annual_entitlement,carry_over_limit,accrual_rate,country_code
+LP-001,USA Standard Policy,26,9,1.6,USA
+LP-002,UK Standard Policy,20,5,2.43,UK
+LP-003,IND Standard Policy,22,6,1.54,IND
+LP-004,CAN Standard Policy,19,5,1.5,CAN
+LP-005,GER Standard Policy,24,10,2.13,GER
+LP-006,Global Policy 6,18,10,1.49,UK

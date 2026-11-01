@@ -1,0 +1,5 @@
+rule_id,entity_type,threshold_amount,country_code,category,approval_level,required_role,effective_from,effective_to
+AR-001,Leave,,,,1,Manager,2020-01-01T09:00:00+00:00,
+AR-002,Expense,,,,1,Manager,2020-01-01T09:00:00+00:00,
+AR-003,Expense,500.00,,,2,Finance,2020-01-01T09:00:00+00:00,
+AR-004,Expense,,GER,Client Entertainment,2,Finance,2020-01-01T09:00:00+00:00,

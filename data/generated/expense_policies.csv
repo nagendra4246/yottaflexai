@@ -1,0 +1,7 @@
+policy_id,category,max_amount,requires_receipt,country_code,effective_from,effective_to
+EP-001,Travel,2000,True,GLOBAL,2020-01-01,
+EP-002,Meals,500,True,GLOBAL,2020-01-01,
+EP-003,Software,1000,True,GLOBAL,2020-01-01,
+EP-004,Office Supplies,500,True,GLOBAL,2020-01-01,
+EP-005,Client Entertainment,1000,True,GLOBAL,2020-01-01,
+EP-EXP,Travel,2000,True,GLOBAL,2018-01-01,2025-12-31

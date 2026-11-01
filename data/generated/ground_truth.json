@@ -1,0 +1,87 @@
+[
+  {
+    "entity_id": "EXP-2026-000002",
+    "issue_type": "Above Approval Threshold",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "CASE-DUPLICATE-RECEIPT",
+    "issue_type": "Duplicate Receipt Hash",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "CASE-DUPLICATE-REIMBURSEMENT",
+    "issue_type": "Duplicate Reimbursement",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "EXP-2026-000001",
+    "issue_type": "Exact Approval Threshold",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "EXPL-EXP-2026-000003-01",
+    "issue_type": "Expense Outside Employment Dates",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "CASE-POLICY-LIMIT-BREACH",
+    "issue_type": "Expense Policy Limit Breach",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "CASE-EXPIRED-POLICY",
+    "issue_type": "Expired Policy",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "LVE-2026-000004",
+    "issue_type": "Holiday Leave",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "CASE-MISSING-COST-CENTER",
+    "issue_type": "Missing Cost Center",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "CASE-MISSING-RECEIPT",
+    "issue_type": "Missing Receipt",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "LB-000249",
+    "issue_type": "Negative Leave Balance",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "EMP-000001",
+    "issue_type": "No Manager - Valid Top Level",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "LVE-2026-000002",
+    "issue_type": "Overlapping Approved Leave",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "EXP-2026-000006",
+    "issue_type": "Partial Approval Then Rejection",
+    "label": "Edge Case"
+  },
+  {
+    "entity_id": "APR-EXP-2026-000001-01",
+    "issue_type": "Requester Self Approval",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "EXP-2026-000004",
+    "issue_type": "Split Claims",
+    "label": "Anomaly"
+  },
+  {
+    "entity_id": "LVE-2026-000003",
+    "issue_type": "Weekend Leave",
+    "label": "Edge Case"
+  }
+]

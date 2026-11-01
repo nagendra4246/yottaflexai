@@ -1,0 +1,6 @@
+holiday_id,country_code,holiday_date,name
+HOL-CAN-001,CAN,2026-05-01,Synthetic Spring Holiday
+HOL-GER-001,GER,2026-05-01,Synthetic Spring Holiday
+HOL-IND-001,IND,2026-05-01,Synthetic Spring Holiday
+HOL-UK-001,UK,2026-05-01,Synthetic Spring Holiday
+HOL-USA-001,USA,2026-05-01,Synthetic Spring Holiday

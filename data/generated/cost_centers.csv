@@ -1,0 +1,6 @@
+cost_center_id,name,budget,department
+CC-001,Engineering Cost Center,10000000.00,Engineering
+CC-002,Finance Cost Center,10000000.00,Finance
+CC-003,Operations Cost Center,10000000.00,Operations
+CC-004,Sales Cost Center,10000000.00,Sales
+CC-005,People Cost Center,10000000.00,People

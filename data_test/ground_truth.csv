@@ -1,0 +1,4 @@
+entity_id,issue_type,label
+LB-000249,Negative Balance,Anomaly
+EXPL-EXP-2026-000753-06,Date Out of Range,Anomaly
+APR-EXP-2026-000650-01,Self Approval,Anomaly

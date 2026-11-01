@@ -1,0 +1,20 @@
+{
+  "anomaly_case_rows": 8,
+  "ground_truth_rows": 17,
+  "status": "passed",
+  "tables": {
+    "approval_rules": 4,
+    "approval_steps": 1803,
+    "cost_centers": 5,
+    "employees": 400,
+    "expense_claims": 1000,
+    "expense_lines": 5415,
+    "expense_policies": 6,
+    "leave_balances": 400,
+    "leave_policies": 6,
+    "leave_requests": 800,
+    "public_holidays": 5,
+    "reimbursements": 200
+  },
+  "unlabelled_overlaps": 0
+}

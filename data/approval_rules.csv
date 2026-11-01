@@ -1,0 +1,4 @@
+rule_id,entity_type,threshold_amount,country_code,category,approval_level,required_role
+AR-001,Leave,,,,1,Manager
+AR-002,Expense,5000.0,,,1,Manager
+AR-003,Expense,5000.0,,,2,Finance

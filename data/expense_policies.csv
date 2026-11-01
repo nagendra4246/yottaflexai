@@ -1,0 +1,6 @@
+policy_id,category,max_amount,requires_receipt,country_code
+EP-TRA,Travel,128,True,GLOBAL
+EP-MEA,Meals,297,True,GLOBAL
+EP-SOF,Software,241,True,GLOBAL
+EP-OFF,Office Supplies,124,True,GLOBAL
+EP-CLI,Client Entertainment,321,True,GLOBAL
