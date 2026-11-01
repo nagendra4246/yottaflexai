@@ -325,10 +325,11 @@ records.
 
 ### Application home/dashboard
 
-The supplied screenshot shows the Analytics page, not the home screen. A home
-dashboard capture is still needed; the available Analytics screenshot is:
+The supplied screenshot shows the  home screen.
+the available home screenshot is:
 
-![YottaFlex AI analytics screen showing generated employee, expense, workflow, and status summaries](docs/screenshots/dashboard-analytics.png)
+![YottaFlex AI analytics screen showing generated employee, expense, workflow, and status summaries]
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 180357" src="https://github.com/user-attachments/assets/6ae5df78-d273-4159-b8f4-0623d62835f9" />
 
 Capture the home route (`/`) and save it as
 `docs/screenshots/home-dashboard.png`.
@@ -376,18 +377,6 @@ behavior implemented here. It does not claim measured time or cost savings.
 | Expense close-out | Claim and reimbursement status are tracked separately | Reimbursement can be created only after final claim approval and then processed through its lifecycle |
 | Operational visibility | Statuses are assembled from separate records | UI provides request/claim lists, actionable queue, reimbursement views, audit filters, and summary metrics |
 
-## Demo video
-
-**Demo video:** `[Add a hosted/shareable demo URL here]`
-
-Suggested walkthrough: introduce the workflow problem; submit a leave request
-and expense claim; show policy validation and approval routing; review and
-decide a request as an approver; then show the final status and related audit
-history. Keep the demo on synthetic data.
-
-A local MP4 recording was supplied separately, but it is not linked from this
-repository. Add a hosted or repository-accessible link above when one is
-available; no video URL is implied by this placeholder.
 
 ## Run locally with Docker
 
