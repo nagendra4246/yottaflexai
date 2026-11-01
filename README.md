@@ -318,35 +318,6 @@ the available home screenshot is:
 Capture the home route (`/`) and save it as
 `docs/screenshots/home-dashboard.png`.
 
-### Employee/requester workflow
-
-No requester-form screenshot is included yet. From the running app, open
-`/leave` and `/expenses`, then capture the respective submission forms as:
-
-- `docs/screenshots/requester-leave-form.png`
-- `docs/screenshots/requester-expense-form.png`
-
-### Approver workflow
-
-No approver screenshot is included yet. Open `/approvals` using a synthetic
-approver ID and capture the assigned pending steps as
-`docs/screenshots/approver-queue.png`.
-
-### Decision/result screens
-
-No decision-result screenshot is included yet. Open a request or claim from
-the `/leave` or `/expenses` list, then capture its detail/result page as
-`docs/screenshots/decision-results.png`.
-
-### Audit/history views
-
-No audit screenshot is included yet. Capture `/audit` or the audit timeline
-on a request/claim detail page as `docs/screenshots/audit-history.png`.
-
-For each capture, run the app using the Docker instructions below, use only
-synthetic test records, and place the PNG at the exact repository-relative path
-shown. Do not include real personal or confidential information.
-
 ## Before and after
 
 This comparison describes the challenge's manual-workflow problem and the
